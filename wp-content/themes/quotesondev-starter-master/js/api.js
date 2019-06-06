@@ -8,11 +8,12 @@ $(document).ready(function(){
           method: 'GET',
           url: api_vars.root_url + 'wp/v2/posts?filter[orderby]=rand&filter[posts_per_page]=1',
        }).done( function(response) {
-          console.log(response)
-         //  alert('Success! Comments are closed for this post.');
          $('.quote').html(response[0].content.rendered);
          $('.author').html(response[0].title.rendered);
        });
+         $('.source')( response [0]._qod_quote_source) 
+         // echo " (response [0]._qod_quote_source) "
+      
     });
  })( jQuery );
 

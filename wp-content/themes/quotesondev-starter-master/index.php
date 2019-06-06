@@ -7,6 +7,8 @@
 
 get_header(); ?>
 
+				<div> <i class="fas fa-quote-left"></i> </div>
+
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 
@@ -36,16 +38,16 @@ get_header(); ?>
 						<?php
 						the_excerpt();
 						?>
-					</div>;
+					</div>
 				<?php
 
 			}}
 			?>
+				<div> <i class="fas fa-quote-right"></i> </div>
 				<button class="buttonmania" type="button"> Show Me Another!</button>
 
 			</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 	<?php get_footer(); ?>

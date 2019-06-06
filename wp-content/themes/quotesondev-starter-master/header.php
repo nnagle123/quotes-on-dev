@@ -17,6 +17,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( 'Skip to content' ); ?></a>
 
@@ -33,3 +34,5 @@
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
+
+			<img src= "<?php echo get_template_directory_uri() . '/images/qod-logo.svg'; ?>" >

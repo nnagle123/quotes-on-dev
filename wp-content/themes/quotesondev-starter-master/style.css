@@ -593,3 +593,36 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+body {
+  background-color: black;
+  color: white; }
+
+p {
+  font-size: 2rem; }
+
+.fas {
+  color: #00cc00; }
+
+i {
+  width: 15%; }
+
+button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.buttonmania {
+  background-color: black;
+  color: #00cc00;
+  border: 2px solid #00cc00;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none; }

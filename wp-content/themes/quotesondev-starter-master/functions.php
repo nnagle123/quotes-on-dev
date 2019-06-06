@@ -88,6 +88,7 @@ function red_scripts() {
 	$script_url = get_template_directory_uri() . '/js/api.js';
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'quotes_on_dev', $script_url, array( 'jquery' ), false, true );
+	wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.8.2/css/all.css' );
    wp_localize_script( 'quotes_on_dev', 'api_vars', array(
 	   'root_url' => esc_url_raw( rest_url() ),
 	   'wpapi_nonce' => wp_create_nonce( 'wp_rest' ),
