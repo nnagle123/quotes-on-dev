@@ -10,9 +10,24 @@ $(document).ready(function(){
        }).done( function(response) {
          $('.quote').html(response[0].content.rendered);
          $('.author').html(response[0].title.rendered);
+         if(response[0]._qod_quote_source.length !== 0 && response[0]._qod_quote_source_url.length !== 0){
+            let source = response[0]._qod_quote_source
+            let sourceURL = response[0]._qod_quote_source_url
+            
+             $('.source').html('<p><a href="' + sourceURL + '">' + source + '</a></p>'); 
+
+         
+         
+           // $('.source').html(response[0]._qod_quote_source ); 
+          
+
+         }
        });
-         $('.source')( response [0]._qod_quote_source) 
-         // echo " (response [0]._qod_quote_source) "
+      
+         
+     
+         // $('.source')( response [0]._qod_quote_source) 
+         // // echo " (response [0]._qod_quote_source) "
       
     });
  })( jQuery );

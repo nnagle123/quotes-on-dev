@@ -38,7 +38,11 @@ get_header(); ?>
 						<?php
 						the_excerpt();
 						?>
+						
 					</div>
+					
+					<div class="source"> </div>
+	
 				<?php
 
 			}}
