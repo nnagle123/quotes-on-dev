@@ -600,11 +600,24 @@ body {
 p {
   font-size: 2rem; }
 
+.quote-area {
+  margin: 240px;
+  margin-top: -150px; }
+
 .fas {
   color: #00cc00; }
 
 i {
-  width: 15%; }
+  font-size: 8rem; }
+
+.left {
+  position: relative;
+  top: 72px; }
+
+.right {
+  position: relative;
+  margin-left: 1100px;
+  margin-top: -48px; }
 
 button {
   background-color: #4CAF50;
@@ -626,3 +639,23 @@ button {
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none; }
+
+img {
+  height: 135px;
+  margin-left: 175px; }
+
+ul {
+  position: relative;
+  margin-top: 7%;
+  margin-left: 9px; }
+
+li {
+  border-right: 1px solid #ffffff;
+  padding: 0 15px; }
+
+last {
+  border-right: none; }
+
+li a {
+  text-decoration: none;
+  color: #00cc00; }
