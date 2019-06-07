@@ -644,18 +644,34 @@ img {
   height: 135px;
   margin-left: 175px; }
 
-ul {
+.source {
+  color: white;
+  font-size: 100px;
+  text-decoration: none;
+  color: #00cc00; }
+
+.footerdiv ul {
   position: relative;
   margin-top: 7%;
   margin-left: 9px; }
 
-li {
+.footerdiv li {
   border-right: 1px solid #ffffff;
   padding: 0 15px; }
 
-last {
-  border-right: none; }
-
-li a {
+.footerdiv li a {
   text-decoration: none;
   color: #00cc00; }
+
+.footerdiv .menu {
+  margin-left: 50%;
+  margin-top: -13%; }
+
+.footerdiv .footermessage {
+  list-style: none; }
+  .footerdiv .footermessage a {
+    color: #00cc00;
+    display: inline; }
+
+.footerdiv .last {
+  border-right: none; }
