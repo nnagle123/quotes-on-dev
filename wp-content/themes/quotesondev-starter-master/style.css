@@ -428,7 +428,6 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
-    display: none;
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -571,6 +570,9 @@ a {
   clear: both;
   margin: 0 0 1.5rem; }
 
+body {
+  color: #00cc00; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -598,26 +600,20 @@ body {
   color: white; }
 
 p {
-  font-size: 2rem; }
+  font-size: 1.2rem; }
 
 .quote-area {
-  margin: 240px;
-  margin-top: -150px; }
+  margin: 28px;
+  margin-top: -15px; }
 
 .fas {
   color: #00cc00; }
 
-i {
-  font-size: 8rem; }
-
 .left {
-  position: relative;
-  top: 72px; }
+  display: none; }
 
 .right {
-  position: relative;
-  margin-left: 1100px;
-  margin-top: -48px; }
+  display: none; }
 
 button {
   background-color: #4CAF50;
@@ -642,13 +638,103 @@ button {
 
 img {
   height: 135px;
-  margin-left: 175px; }
+  margin-left: 13px; }
 
 .source {
   color: white;
   font-size: 100px;
   text-decoration: none;
   color: #00cc00; }
+
+a {
+  text-decoration: none;
+  color: #00cc00; }
+
+@media only screen and (min-width: 1240px) {
+  body {
+    background-color: black;
+    color: white; }
+  p {
+    font-size: 2rem; }
+  .quote-area {
+    margin: 220px;
+    margin-top: -150px; }
+  i {
+    font-size: 8rem; }
+  .left {
+    display: block;
+    position: relative;
+    top: 72px; }
+  .right {
+    display: block;
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -48px; }
+  button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; }
+  .buttonmania {
+    background-color: black;
+    color: #00cc00;
+    border: 2px solid #00cc00;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none; }
+  img {
+    height: 135px;
+    margin-left: 175px; }
+  .source {
+    color: white;
+    font-size: 100px;
+    text-decoration: none;
+    color: #00cc00; }
+  a {
+    text-decoration: none;
+    color: #00cc00; } }
+
+form {
+  background-color: rebeccapurple; }
+
+textarea {
+  background-color: black;
+  stroke: #00cc00 3px;
+  border: #00cc00; }
+
+button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.buttonmania {
+  background-color: black;
+  color: #00cc00;
+  border: 2px solid #00cc00;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none; }
+
+.footerdiv .main-navigation li {
+  margin-left: 2%; }
+
+.footerdiv .main-navigation a {
+  display: inline; }
 
 .footerdiv ul {
   position: relative;
@@ -657,21 +743,36 @@ img {
 
 .footerdiv li {
   border-right: 1px solid #ffffff;
-  padding: 0 15px; }
+  padding: 0 15px;
+  list-style-type: none;
+  margin-top: 3%; }
 
 .footerdiv li a {
   text-decoration: none;
   color: #00cc00; }
 
 .footerdiv .menu {
-  margin-left: 50%;
-  margin-top: -13%; }
-
-.footerdiv .footermessage {
-  list-style: none; }
-  .footerdiv .footermessage a {
-    color: #00cc00;
-    display: inline; }
+  margin-top: -10%; }
 
 .footerdiv .last {
   border-right: none; }
+
+@media only screen and (min-width: 1240px) {
+  .footerdiv ul {
+    position: relative;
+    margin-top: 7%;
+    margin-left: 9px; }
+  .footerdiv li {
+    border-right: 1px solid #ffffff;
+    padding: 0 15px; }
+  .footerdiv li a {
+    text-decoration: none;
+    color: #00cc00; }
+  .footerdiv .menu {
+    margin-left: 50%;
+    margin-top: -10%; }
+  .footerdiv .footermessage {
+    list-style: none; }
+    .footerdiv .footermessage a {
+      color: #00cc00;
+      display: inline; } }

@@ -29,16 +29,15 @@ get_header(); ?>
 				while ($the_query->have_posts()) {
 					$the_query->the_post();
 					?>
-					<p class="author">
-						<?php
-						the_title();
-						?>
-					</p>
 					<div class="quote">
 						<?php
 						the_excerpt();
 						?>
-						
+						<p class="author">
+						<?php
+						the_title();
+						?>
+					</p>
 					</div>
 					
 					<div class="source"> </div>
