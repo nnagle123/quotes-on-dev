@@ -18,6 +18,4 @@
 
 	<body <?php body_class(); ?>>
 
-	
-
-			<img src= "<?php echo get_template_directory_uri() . '/images/qod-logo.svg'; ?>" >
+<img  src= "<?php echo get_template_directory_uri() . '/images/qod-logo.svg'; ?>" >
