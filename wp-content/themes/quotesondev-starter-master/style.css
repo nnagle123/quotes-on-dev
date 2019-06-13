@@ -638,7 +638,7 @@ button {
 
 img {
   height: 135px;
-  margin-left: 13px; }
+  padding: 3%; }
 
 .source {
   color: white;
@@ -657,8 +657,9 @@ a {
   p {
     font-size: 2rem; }
   .quote-area {
-    margin: 220px;
-    margin-top: -150px; }
+    margin: 230px;
+    margin-top: -150px;
+    margin-bottom: 13%; }
   i {
     font-size: 8rem; }
   .left {
@@ -668,7 +669,7 @@ a {
   .right {
     display: block;
     position: relative;
-    margin-left: 1100px;
+    margin-left: 1150px;
     margin-top: -48px; }
   button {
     background-color: #4CAF50;
@@ -690,7 +691,7 @@ a {
             box-shadow: none;
     text-shadow: none; }
   img {
-    height: 135px;
+    height: 212px;
     margin-left: 175px; }
   .source {
     color: white;
@@ -702,7 +703,7 @@ a {
     color: #00cc00; } }
 
 form {
-  background-color: rebeccapurple; }
+  background-color: black; }
 
 textarea {
   background-color: black;
@@ -757,14 +758,16 @@ button {
 .footerdiv .last {
   border-right: none; }
 
+@media only screen and (min-width: 600px) {
+  .footerdiv li {
+    padding: 5px;
+    border-right: 1px solid #ffffff; } }
+
 @media only screen and (min-width: 1240px) {
   .footerdiv ul {
     position: relative;
-    margin-top: 7%;
+    margin-top: 0%;
     margin-left: 9px; }
-  .footerdiv li {
-    border-right: 1px solid #ffffff;
-    padding: 0 15px; }
   .footerdiv li a {
     text-decoration: none;
     color: #00cc00; }
@@ -775,4 +778,8 @@ button {
     list-style: none; }
     .footerdiv .footermessage a {
       color: #00cc00;
-      display: inline; } }
+      display: inline; }
+  .footerdiv li {
+    border-right: 1px solid #ffffff;
+    padding: 0 15px;
+    margin-top: 0%; } }
