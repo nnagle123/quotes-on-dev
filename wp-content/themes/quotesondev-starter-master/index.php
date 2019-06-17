@@ -48,7 +48,7 @@ get_header(); ?>
 			?>
 				
 
-				<button class="buttonmania" type="button"> Show Me Another!</button>
+				<button class="mainbutton" type="button"> Show Me Another!</button>
 
 			</div>
 

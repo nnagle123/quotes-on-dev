@@ -2,7 +2,7 @@ $(document).ready(function () {
   console.log(api_vars);
 
   (function ($) {
-    $('.buttonmania').on('click', function (event) {
+    $('.mainbutton').on('click', function (event) {
       event.preventDefault();
       $.ajax({
         method: 'GET',
